@@ -1,0 +1,40 @@
+/* Styles for displaying student information */
+
+.students-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.student {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.student h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.student p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.student .name {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.student .course {
+    font-style: italic;
+}
+
+.student:nth-child(even) {
+    background-color: #f0f0f0;
+}
